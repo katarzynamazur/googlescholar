@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------------
+                Simple Google Scholar Scraper / Spammer Script
+                        Copyright (c) 2015 Katarzyna Mazur
+--------------------------------------------------------------------------------
+0) UNINSTALL python-lxml:
+
+sudo apt-get remove python-lxml
+
+
+1) INSTALL PYTHON PIP:
+
+sudo apt-get install python-pip python-dev build-essential 
+sudo pip install --upgrade pip 
+sudo pip install --upgrade virtualenv 
+
+2) INSTALL MECHANIZE:
+
+sudo pip install mechanize
+
+3) INSTALL BEAUTIFULSOUP:
+
+a) manually:
+
+wget http://www.crummy.com/software/BeautifulSoup/bs4/download/4.3/beautifulsoup4-4.3.2.tar.gz
+tar -zxvf beautifulsoup4-4.3.2.tar.gz
+cd beautifulsoup4-4.3.2/
+python setup.py install
+
+or
+
+b) with pip:
+
+sudo pip install beautifulsoup4
+
+4) INSTALL WXPYTHON:
+
+sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-doc wx2.8-examples wx2.8-headers wx2.8-i18n
+
+5) INSTALL SQLITE3 COMMAND LINE TOOL (OPTIONAL):
+
+sudo apt-get install sqlite3
+
+
+
